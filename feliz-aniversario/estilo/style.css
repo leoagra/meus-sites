@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&display=swap');
+
+:root {
+    --fonte01: Verdana, sans-serif;
+    --fonte02: 'Cookie', cursive;
+    --fonte03: 'Dancing Script', cursive;
+
+    --cor01: #FFB5DB;
+    --cor02: #CC91AF;
+    --cor03: #FF69B6;
+    --cor04: #802152;
+    --cor05: #614553;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
