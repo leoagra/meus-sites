@@ -17,7 +17,89 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte01);
 }
 
+header {
+    background-image: linear-gradient(to right, var(--cor03), var(--cor01), var(--cor03));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+header > h1 {
+    font-family: var(--fonte03);
+    font-size: 6vw;
+}
+
+header > p {
+    font-family: var(--fonte03);
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+header div.audio {
+    position: relative;
+}
+
+div.audio > audio {
+    position: absolute;
+}
+section {
+    font-family: var(--fonte02);
+    font-size: 3vh;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 3vw;
+    line-height: 1.3em;
+    
+}
+
+section.normal {
+    background-color: var(--cor01);
+    
+}
+
+section.normal > p {
+    font-family: var(--fonte02);
+    text-align: right;
+    color: var(--cor04);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+section.imagem {
+    background-color: var(--cor04);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+}
+
+section.imagem > p {
+    font-family: var(--fonte02);
+    color: var(--cor01);
+    background-color: rgba(0, 0, 0, 0.432);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+#img01 {
+
+    background-image: url('..//imagens/fundo-01-pb.jpg');
+    background-position: center center;
+}
+
+
+footer{
+    background-color: var(--cor05);
+    font-family: var(--fonte02);
+    color: var(--cor01);
+    font-size: 3vw;
+    text-align: center;
+}
 
 
