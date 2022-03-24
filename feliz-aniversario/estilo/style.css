@@ -39,13 +39,29 @@ header > p {
     font-weight: bolder;
 }
 
-header div.audio {
-    position: relative;
+header a {
+    text-decoration: none;
+    font-family: var(--fonte03);
+    color: black;
 }
 
-div.audio > audio {
-    position: absolute;
+a:hover {
+    background-color:  #61455363;
+    border-radius: 10px;
+    transition: 0.5s;
 }
+
+audio {
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    background-color: #614553;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.466);
+}
+
 section {
     font-family: var(--fonte02);
     font-size: 3vh;
@@ -57,17 +73,37 @@ section {
     
 }
 
-section.normal {
+section.normal01 {
     background-color: var(--cor01);
     
 }
 
-section.normal > p {
+section.normal01 > p {
+    font-family: var(--fonte02);
+    text-align: left;
+    color: var(--cor04);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+    display: inline-block;
+}
+
+section.normal02 {
+    background-color: var(--cor01);
+    
+}
+
+section.normal02 > p {
     font-family: var(--fonte02);
     text-align: right;
     color: var(--cor04);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
 
+}
+
+section.normal01 > img.foto01{
+    display: inline-block;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.486);
+    width: 20vw;
+    margin: auto;
 }
 
 section.imagem {
@@ -93,7 +129,11 @@ section.imagem > p {
     background-position: center center;
 }
 
-
+footer a {
+    text-decoration: none;
+    font-family: var(--fonte02);
+    color: var(--cor01);
+}
 footer{
     background-color: var(--cor05);
     font-family: var(--fonte02);
