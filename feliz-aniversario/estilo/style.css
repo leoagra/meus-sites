@@ -7,7 +7,7 @@
     --fonte02: 'Cookie', cursive;
     --fonte03: 'Dancing Script', cursive;
 
-    --cor01: #FFB5DB;
+    --cor01: #f8ddeb;
     --cor02: #CC91AF;
     --cor03: #FF69B6;
     --cor04: #802152;
@@ -18,6 +18,10 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte01);
+}
+
+html, body {
+    min-height: 100%vh;
 }
 
 header {
