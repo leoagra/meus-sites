@@ -1,0 +1,3 @@
+function mudaFoto (foto){/*"function" é a função. "mudaFoto" é o nome que eu dei para identificar a função. "foto" é o parâmetro utilizado.*/
+    document.getElementById("icone").src = foto;/*a função "getElementById" é usada para chamar um id, levando um parametro escolhido(icone) que é uma img do html. o"src" usa o parametro "foto" usado antes para chamar a img do arquivo escolhido no "mudaFoto"*/
+}
